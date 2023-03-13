@@ -1,0 +1,70 @@
+body {
+  box-sizing: border-box;
+  background: linear-gradient(to right, red, orange);
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  display: flex;
+  background-color: #211b24;
+  border-radius: 0 0 230px 0;
+  height: 560px;
+  color: #fff;
+}
+.right-box {
+  width: 250px;
+  height: 170px;
+  background: linear-gradient(to right, orange, red);
+  border-radius: 0 0 130px 130px;
+  margin-left: 600px;
+}
+.left-box {
+  margin: 40px 0 0 100px;
+}
+.left-box h2 {
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+input {
+  width: 15px;
+  height: 15px;
+}
+.list {
+  margin-bottom: 4px;
+}
+.forms {
+  display: flex;
+  align-items: center;
+  margin: 30px 0 0 80px;
+}
+button {
+  width: 53px;
+  height: 27px;
+  background-color: #ee005f;
+  cursor: pointer;
+  border: none;
+}
+.myInput {
+  width: 200px;
+  height: 40px;
+  border-radius: 20px 0 0 20px;
+}
+.myInput::placeholder {
+  padding-left: 5px;
+}
+.add-btn {
+  background-color: orange;
+  color: #fff;
+  font-size: 18px;
+  width: 80px;
+  height: 44px;
+  border-radius: 0 20px 20px 0;
+}
+.delete-btn {
+  margin-left: 6px;
+}
